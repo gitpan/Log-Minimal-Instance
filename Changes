@@ -1,5 +1,7 @@
 Revision history for Perl extension Log::Minimal::Instance
 
-0.01 2013-09-27T08:57:24Z
+0.02 2013-09-27T09:30:14Z
+    - Add dependency by @syohex
 
+0.01 2013-09-27T08:57:24Z
     - original version
