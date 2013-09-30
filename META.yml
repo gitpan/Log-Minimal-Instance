@@ -29,7 +29,7 @@ no_index:
 provides:
   Log::Minimal::Instance:
     file: lib/Log/Minimal/Instance.pm
-    version: 0.02
+    version: 0.03
 requires:
   File::Stamped: 0.03
   Log::Minimal: 0.14
@@ -38,9 +38,10 @@ resources:
   bugtracker: https://github.com/arisawa/p5-Log-Minimal-Instance/issues
   homepage: https://github.com/arisawa/p5-Log-Minimal-Instance
   repository: git://github.com/arisawa/p5-Log-Minimal-Instance.git
-version: 0.02
+version: 0.03
 x_contributors:
   - 'xaicron <xaicron@gmail.com>'
   - 'Kosuke Arisawa <arisawa@dena.jp>'
   - 'Syohei YOSHIDA <syohex@gmail.com>'
+  - 'Tomohiro Mitsumune <tomohiro.mitsumune@dena.com>'
   - 'Kosuke Arisawa <arisawa@gmail.com>'
