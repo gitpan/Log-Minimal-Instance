@@ -3,19 +3,17 @@ abstract: 'Instance based on Log::Minimal'
 author:
   - 'Kosuke Arisawa <arisawa {at} gmail.com>'
 build_requires:
-  Test::Exception: 0.31
-  Test::More: 0.98
-  Test::Output: 0.16
+  Test::Exception: '0.31'
+  Test::More: '0.98'
+  Test::Output: '0.16'
 configure_requires:
-  CPAN::Meta: 0
-  CPAN::Meta::Prereqs: 0
-  Module::Build: 0.38
+  Module::Build: '0.38'
 dynamic_config: 0
-generated_by: 'Minilla/v0.7.0, CPAN::Meta::Converter version 2.132140'
+generated_by: 'Minilla/v2.1.1, CPAN::Meta::Converter version 2.141520'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: Log-Minimal-Instance
 no_index:
   directory:
@@ -26,22 +24,24 @@ no_index:
     - eg
     - examples
     - author
+    - builder
 provides:
   Log::Minimal::Instance:
     file: lib/Log/Minimal/Instance.pm
-    version: 0.03
+    version: '0.04'
 requires:
-  File::Stamped: 0.03
-  Log::Minimal: 0.14
-  parent: 0.223
+  File::Stamped: '0.03'
+  Log::Minimal: '0.14'
+  parent: '0.223'
 resources:
   bugtracker: https://github.com/arisawa/p5-Log-Minimal-Instance/issues
   homepage: https://github.com/arisawa/p5-Log-Minimal-Instance
   repository: git://github.com/arisawa/p5-Log-Minimal-Instance.git
-version: 0.03
+version: '0.04'
 x_contributors:
-  - 'xaicron <xaicron@gmail.com>'
   - 'Kosuke Arisawa <arisawa@dena.jp>'
   - 'Syohei YOSHIDA <syohex@gmail.com>'
   - 'Tomohiro Mitsumune <tomohiro.mitsumune@dena.com>'
+  - 'xaicron <xaicron@gmail.com>'
   - 'Kosuke Arisawa <arisawa@gmail.com>'
+  - 'Kosuke Arisawa <kosuke.arisawa@dena.com>'
