@@ -58,7 +58,7 @@
    "provides" : {
       "Log::Minimal::Instance" : {
          "file" : "lib/Log/Minimal/Instance.pm",
-         "version" : "0.04"
+         "version" : "0.05"
       }
    },
    "release_status" : "stable",
@@ -72,13 +72,13 @@
          "web" : "https://github.com/arisawa/p5-Log-Minimal-Instance"
       }
    },
-   "version" : "0.04",
+   "version" : "0.05",
    "x_contributors" : [
       "Kosuke Arisawa <arisawa@dena.jp>",
       "Syohei YOSHIDA <syohex@gmail.com>",
       "Tomohiro Mitsumune <tomohiro.mitsumune@dena.com>",
+      "Kosuke Arisawa <kosuke.arisawa@dena.com>",
       "xaicron <xaicron@gmail.com>",
-      "Kosuke Arisawa <arisawa@gmail.com>",
-      "Kosuke Arisawa <kosuke.arisawa@dena.com>"
+      "Kosuke Arisawa <arisawa@gmail.com>"
    ]
 }
